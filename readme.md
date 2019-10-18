@@ -19,7 +19,7 @@
 | ch04-model-interface | 第4章の「分析コンペ用のクラスやフォルダの構成」のコード |
 
 * 各章のディレクトリをカレントディレクトリとしてコードを実行して下さい。
-* 第1章のタイタニックのデータは、[input/readme.md](https://github.com/ttakuya/KaggleBook/blob/master/code-public/input) のとおりダウンロード下さい。
+* 第1章のタイタニックのデータは、[input/readme.md](input/readme.md) のとおりダウンロード下さい。
 * 第4章の「分析コンペ用のクラスやフォルダの構成」のコードについては、[ch04-model-interface/readme.md](ch04-model-interface) を参照下さい。
 
 
