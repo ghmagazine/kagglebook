@@ -18,8 +18,8 @@ test_x = pd.read_csv('../input/sample-data/test_preprocessed_onehot.csv')
 # argsortを使うことで、配列の値が小さい順／大きい順にインデックスをソートできる
 ary = np.array([10, 20, 30, 0])
 idx = ary.argsort()
-print(idx)  # 降順 - [3 0 1 2]
-print(idx[::-1])  # 昇順 - [2 1 0 3]
+print(idx)  # 昇順 - [3 0 1 2]
+print(idx[::-1])  # 降順 - [2 1 0 3]
 
 print(ary[idx[::-1][:3]])  # ベスト3を出力 - [30, 20, 10]
 
