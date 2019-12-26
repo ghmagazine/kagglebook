@@ -40,7 +40,7 @@ for va_period in va_period_list:
     tr_x, va_x = train_x[is_tr], train_x[is_va]
     tr_y, va_y = train_y[is_tr], train_y[is_va]
 
-# （参考）periodSeriesSplitの場合、データの並び順しか使えないため使いづらい
+# （参考）TimeSeriesSplitの場合、データの並び順しか使えないため使いづらい
 from sklearn.model_selection import TimeSeriesSplit
 
 tss = TimeSeriesSplit(n_splits=4)
