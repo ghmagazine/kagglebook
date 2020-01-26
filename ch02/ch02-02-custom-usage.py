@@ -29,7 +29,7 @@ import xgboost as xgb
 from sklearn.metrics import log_loss
 
 # 特徴量と目的変数をxgboostのデータ構造に変換する
-# 学習データの特徴量と目的変数がtr_x, tr_x、バリデーションデータの特徴量と目的変数がva_x, va_yとする
+# 学習データの特徴量と目的変数がtr_x, tr_y、バリデーションデータの特徴量と目的変数がva_x, va_yとする
 dtrain = xgb.DMatrix(tr_x, label=tr_y)
 dvalid = xgb.DMatrix(va_x, label=va_y)
 
